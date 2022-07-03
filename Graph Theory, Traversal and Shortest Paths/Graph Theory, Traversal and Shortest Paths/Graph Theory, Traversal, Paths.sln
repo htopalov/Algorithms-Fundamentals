@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedComponents", "ConnectedComponents\ConnectedComponents.csproj", "{A12A10DD-F0A0-471F-A031-6EA25D4F8CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectedComponents", "ConnectedComponents\ConnectedComponents.csproj", "{A12A10DD-F0A0-471F-A031-6EA25D4F8CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting", "Topological Sorting\Topological Sorting.csproj", "{3A6BE964-9AA4-4C0B-9270-A668422C75D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topological Sorting", "Topological Sorting\Topological Sorting.csproj", "{3A6BE964-9AA4-4C0B-9270-A668422C75D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{202891DF-BB7B-476F-B98A-97295844B773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{202891DF-BB7B-476F-B98A-97295844B773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetween ertices", "DistanceBetween ertices\DistanceBetween ertices.csproj", "{BC0553A2-FA46-4308-B9F1-64C6C0B90429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasInMatrix", "AreasInMatrix\AreasInMatrix.csproj", "{7D2BC208-B2D8-4331-B731-BF1246FB80A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclesInGraph", "CyclesInGraph\CyclesInGraph.csproj", "{D89CC0D6-1773-4BDE-97C7-C0E8C02FF559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salaries", "Salaries\Salaries.csproj", "{979EFE66-990C-4AF6-85A6-453A542CF569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakCycles", "BreakCycles\BreakCycles.csproj", "{DA214DB7-66FC-46E5-A60D-C2671EFE9840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadReconstruction", "RoadReconstruction\RoadReconstruction.csproj", "{BE1F19A5-8451-42DD-A286-8559C9AB6341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +39,30 @@ Global
 		{202891DF-BB7B-476F-B98A-97295844B773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202891DF-BB7B-476F-B98A-97295844B773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202891DF-BB7B-476F-B98A-97295844B773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0553A2-FA46-4308-B9F1-64C6C0B90429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0553A2-FA46-4308-B9F1-64C6C0B90429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0553A2-FA46-4308-B9F1-64C6C0B90429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0553A2-FA46-4308-B9F1-64C6C0B90429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2BC208-B2D8-4331-B731-BF1246FB80A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2BC208-B2D8-4331-B731-BF1246FB80A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2BC208-B2D8-4331-B731-BF1246FB80A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2BC208-B2D8-4331-B731-BF1246FB80A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89CC0D6-1773-4BDE-97C7-C0E8C02FF559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89CC0D6-1773-4BDE-97C7-C0E8C02FF559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89CC0D6-1773-4BDE-97C7-C0E8C02FF559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89CC0D6-1773-4BDE-97C7-C0E8C02FF559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979EFE66-990C-4AF6-85A6-453A542CF569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979EFE66-990C-4AF6-85A6-453A542CF569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979EFE66-990C-4AF6-85A6-453A542CF569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979EFE66-990C-4AF6-85A6-453A542CF569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA214DB7-66FC-46E5-A60D-C2671EFE9840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA214DB7-66FC-46E5-A60D-C2671EFE9840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA214DB7-66FC-46E5-A60D-C2671EFE9840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA214DB7-66FC-46E5-A60D-C2671EFE9840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1F19A5-8451-42DD-A286-8559C9AB6341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1F19A5-8451-42DD-A286-8559C9AB6341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1F19A5-8451-42DD-A286-8559C9AB6341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1F19A5-8451-42DD-A286-8559C9AB6341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
